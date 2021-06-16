@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function printDocument(){
+                //For input text/form element we can give key as .value 
+               var textInputRef = document.getElementById("textInput")
+               var passwordInRef = document.getElementById("passwordIn")
+               //for heading text,paragraph we can give key as inner.Text
+               var h2InRef = document.getElementById("h2In")
+               
+               var passwordInvalue = passwordInRef.value
+               var textInputValue=textInputRef.value
+                h2InRef.innerText = "Form Submited"
+                console.log(textInputValue)
+                console.log(passwordInvalue)
+                
+            }
+        </script>
+
+    </head>
+
+    <body>
+        <div style="text-align:center; margin-top: 100px;">
+            <h2 id="h2In">Login Form</h2>
+         <input type="text" placeholder="Username" id="textInput"/><br><br>      
+         <input type="password" placeholder="password" id="passwordIn"/><br> <br>
+         <input type ="button" value="login" onclick="printDocument()"/><br>   
+
+
+        </div>
+
+    </body>
+
+
+</html>

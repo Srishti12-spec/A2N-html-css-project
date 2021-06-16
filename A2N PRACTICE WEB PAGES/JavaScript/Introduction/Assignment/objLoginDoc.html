@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" type="text/css" rel="Stylesheet"/>
+    <Title>Login Form</Title>
+    <script>
+        //Values from textbox
+        function printDocument(){ 
+            //For taking value from heading by using .innerText  
+           var h1Text= document.getElementById("h1")
+           var h1TextIn= h1Text.innerText 
+           console.log(h1TextIn)
+           
+
+           
+
+           //For taking value from input text by using .value
+           var userText= document.getElementById("userName")
+           var userTextVal=userText.value
+           console.log(userTextVal)
+           userText.value=""
+
+           var pwText=document.getElementById("pw")
+           var pwTextVal=pwText.value 
+           console.log(pwTextVal)
+           pwText.value=""
+
+           var eText=document.getElementById("email")
+           var eTextVal=eText.value 
+           console.log(eTextVal)
+           eText.value=""
+
+           var citText=document.getElementById("city")
+           var citTextVal=citText.value 
+           console.log(citTextVal)
+           citText.value=""
+
+         // Dynamically create object & print that object
+           var info ={
+               name:userTextVal,
+               password:pwTextVal,
+               email:eTextVal,
+               city:citTextVal
+           }
+           console.log(info)
+        }
+
+    </script>
+
+
+</head>
+
+<body>
+    <div class="login" >
+      <h1 id="h1">Login Form</h1>
+      
+      <input type="text" placeholder="Username" id="userName" class="intext"/><br> <br>
+      <input type="password" placeholder="Password" id="pw" class="intext"/><br> <br>
+    
+      <input type="email" placeholder="Email or Phone" id="email" class="intext"/><br> <br>
+      <input type="text" placeholder="City" id="city" class="intext"/><br> <br>
+      <input type ="button" value="Login" onclick="printDocument()" class="btn-style"/><br> <br>
+</div>
+
+
+</body>
+
+
+
+
+</html>

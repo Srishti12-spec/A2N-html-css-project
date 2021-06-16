@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.clear-fix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+
+    font-family: Nunito Sans, sans-serif;
+    font-size: 18px;
+
+
+}
+.img-fluid{
+max-width: 100%;
+
+}
+
+section{
+
+    width: 100%;
+    float: left;
+}
+
+/*.container {
+    width: 90%;
+   margin:auto;
+    
+
+
+}*/
+
+a span {
+    color: rgb(39, 165, 27);
+}
+
+.head-sec{
+    background-color: white;
+    padding: 20px 40px;
+    font-size: 14px;
+    line-height: 20px;
+      
+      }
+
+
+.logo{
+    float: left;
+    width: 210px;
+    height: 100%;
+}
+.nav-bar1{
+    float:right;
+    width: 50%;
+    text-align: right;
+    margin-top: 14px;
+}
+.logo img{
+    width: 234px;
+    padding: 10px 20px;
+}
+
+.nav-bar1 ul li{ 
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 2px;
+    
+}
+    
+.nav-bar1 ul li a {
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    color: #333;
+    line-height: 20px;
+    padding: 5px 5px;
+    /* text-transform: none; */
+    position: relative;
+    outline: none !important;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+
+/* Banner-part */
+.banner img
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.enquiry-form{
+    margin: 20px 0 5px 0;
+}
+.ef{
+  /* font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px; */
+   border: 1px solid dimgray;
+    border-radius: 3px;
+    width: 90%;
+    padding: 9px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 20px; 
+
+}
+.form{
+    position: static;
+    
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%), 0 3px 3px rgb(0 0 0 / 15%);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 5px 35px 5px;
+    margin-top: 20px;
+}
+.form h3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+
+.btn-style{
+    
+     border: 1px solid dimgray;
+      border-radius: 3px;
+      width: 90%;
+      padding: 9px;
+      font-size: 14px;
+      color: #333;
+      font-weight: 400;
+      margin-bottom: 20px; 
+      background-color: #bd9234; 
+      border-color: #bd9234; 
+      color: white;
+      font-size: 18px;
+  
+  }
+ 
+  .phone-num p a:active, .phone-num p a:visited, .phone-num p a:link{
+      text-decoration: none;
+
+  }
+
+
+  .welcome{
+    text-align: center !important;
+    width: 100%;
+    background: #fafafa;
+  }
+
+  .wc1 h2{
+
+    font-weight: 500 !important;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+    margin-top: 35px;
+    line-height: 42px;
+  }
+  .wcone img{
+    width: 75px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .wcone{
+      width: 40%;
+      float: left;
+      margin: 3% 5%;
+  }
+
+  .image{
+      float: left;
+  }
+  .image img{
+    border: none;
+    padding: 0px;
+    border-radius: 4px;
+    
+    padding-right: 50px;
+  }
+  .text p{
+    color: #333;
+    line-height: 24px;
+    margin: 0 0 20px;
+    font-size: 14px;
+    padding-left: 50px;
+    text-align: left;
+  }
+  .text ul li{
+    margin-bottom: 14px;
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;    
+  }
+
+/*************************************
+ ********  AMENETIES SECTION  ********
+ *************************************/
+ 
+.Amenties1 {
+    padding: 1% 0;
+    width: 100%;
+    background-color: #f6f2e3;
+}
+
+.amn-header {
+    width: 90%;
+    margin: 2% auto;
+}
+
+.amn {
+    width: 90%;
+    margin: 1% auto;
+}
+.amn-img {
+    width: 23.33%;
+    float: left;
+    margin: 1% 5%;
+    text-align: left;
+    padding: 1%;
+    border-radius: 4px;
+    /* background-color: #fafafa; */
+    /* box-shadow: 5px 5px 15px #888888; */
+}
+
+.amn-img img {
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 4px;
+}
+
+.amn-btn {
+    width: 90%;
+    margin: 1% auto;
+}
+
+.amn-vm-btn {
+    padding: 10px 20px;
+    border: 1px solid dimgray;
+    border-radius: 1px;
+    width: 12%;
+    font-size: 70%;
+    color: #333;
+    font-weight: 400;
+    background-color: #f6f2e3;
+    margin: 0 44%;
+}
+
+/*************************************
+ ******  AMENETIES SECTION END  ******
+ *************************************/
+
+
+/*************************************
+ *******  MASTER PLAN SECTION  *******
+ *************************************/
+
+.master-plan {
+    padding: 1% 0;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.mp-heading {
+    width: 90%;
+    margin: 3% 5%;
+}
+
+.mp-heading h2 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.mp-img {
+    margin-bottom: 20px;
+}
+.mp-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*************************************
+ *****  MASTER PLAN SECTION END  *****
+ *************************************/
+
+/*************************************
+ *********  GALLERY SECTION  *********
+ *************************************/
+
+.img-gallery img{
+    width: 27.33%;
+    float: left;
+    margin: 0 3% 3% 3%;
+    border-radius: 3px;
+}
+
+/*************************************
+ *******  GALLERY SECTION END  *******
+ *************************************/
+
+/*************************************
+ *******  TESTIMONIAL SECTION  *******
+ *************************************/
+
+.Testimonials {
+    padding: 1% 0;
+    width: 100%;
+    background-color: #fafafa;
+    color: #777;
+}
+
+.test-cont {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+blockquote::before {
+    color: #777;
+    display: block !important;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    top: 4209px;
+    left: 143px;
+    content: "“";
+}
+blockquote:after {
+    color: #777;
+    display: block !important;
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    position: absolute;
+    top: 4257px;
+    right: 137px;
+    content: "”";
+}
+
+blockquote p {
+    font-size: 14px;
+}
+
+.testname {
+    margin: 20px;
+    font-size: 14px;
+}
+
+.testname p span {
+    font-size: 12px;
+}
+
+/*************************************
+ *****  TESTIMONIAL SECTION END  *****
+ *************************************/
+ 
+/*************************************
+ ********  CONTACTUS SECTION  ********
+ *************************************/
+
+.contact {
+    padding: 5% 0;
+    margin: 1% 0;
+}
+.contact1 {
+    width: 40%;
+    color: #333;
+    margin: auto;
+    text-align: center;
+}
+.contact1 h2 {
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+
+.contact1 p {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/*************************************
+ ******  CONTACTUS SECTION END  ******
+ *************************************/
+
+.location iframe{
+    width: 100%;
+}
+
+
+
+.footer {
+    padding: 2% 0;
+    background-color: black;
+}
+
+.footer-text {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.footer p{
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+ 
+
+
+   

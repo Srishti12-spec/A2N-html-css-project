@@ -1,0 +1,437 @@
+/*    COMMON PROPRTY TO ALL CSS FILE */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+
+font-family: Verdana;
+
+}
+
+
+.container{
+    width: 1348px;
+    margin: auto;
+    
+}
+
+section,header,footer{
+    width: 100%;
+   float: left;
+
+}
+.img-fluid{
+    max-width: 100%;
+}
+
+
+/*HEADER PART*/
+
+.Header-part{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*HEADER1 PART (LOGO PART)*/
+.header1{
+    width: 50%;
+    float: left;
+}
+/*SOCIAL ICON, NAV BAR*/
+.header2{
+    width: 50%;
+    float: left;
+}
+
+
+
+.social-icon{
+    float: left;
+    margin-right: 34px;
+    
+}
+
+.social-icon ul li{
+    display: inline-block;
+}
+
+.header-right{
+    float: right;
+}
+
+/*MENU*/
+.menu{
+    float: left;
+    padding-top: 12px;
+    font-size: 20px;
+    color: #7f7f7f;
+}
+
+.menu img{
+    margin-left: 9px;
+}
+
+/*BANNER PART*/
+
+.banner{
+    background-color: #cccccc;
+    padding-top: 212px;
+    padding-bottom: 269px;
+    text-align: center;
+}
+
+/*BANNER PART BUTTON STYLE*/
+
+.btn-style{
+    background-color: #c7b199;
+    padding: 22PX 34PX;
+    font-size: 14PX;
+    border: 1px solid #c7b199;
+    color: #ffffff;
+}
+
+.btn-style1{
+    background-color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    color:#282828;
+    padding: 22px 75px 22px 26px;
+    margin-left: 5px;
+}
+.form-button ul li{
+    /*CHANGE CONTENT FROM DOWN TO SIDE*/
+    display: inline-block;
+}
+/*ICON & TEXT POSITION SHOULD BE EQUEAL*/
+.btn-style1 img{
+    position: relative;
+    top: 4px;
+    margin-right: 6px;
+}
+
+
+/*BANNER PART HEADING & PARAGRAPH STYLE*/
+
+.banner h1{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: normal;
+    margin-bottom: 36px;
+}
+
+.banner p{
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 26px;
+    
+}
+
+
+
+/*-EVENT PART-*/
+
+.event{
+    background-image: url("../images/bg-banner.jpg");
+    padding-top: 238px;
+    padding-bottom: 238px;
+    padding-right: 44px;
+    background-size: cover;
+}
+
+.event h1{
+    font-size: 26px;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+.event p{
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 26px;
+}
+
+/*EVENT  PART BUTTON STYLE*/
+
+.form-button1 ul li{
+    display: inline-block;
+}
+
+
+.form-button1 ul li .btn-style1{
+    padding: 23px 43px 23px 27px;
+}
+
+/*SERVICE PART */
+
+
+.container .head p,
+.container .head h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.head{
+
+    margin-bottom: 63px;
+    margin-top: 57px;
+}
+
+.service h1{
+    font-size: 26px;
+    color: #000000;
+    
+
+}
+.service p{
+   color:#e9a3a6 ; 
+   font-size: 20px;
+   font-style: italic;
+   
+   
+}
+
+.service1 {
+    float: left;
+    width: 47%;
+    margin: 0 18px;
+}
+
+.service1 h1{
+    font-size: 20px;
+    color: black;
+    
+}
+.service1 p{
+    font-size: 15px;
+    color: #e9a3a6;
+    font-style: normal;
+    
+}
+
+.svc-left .svc-tet,
+.svc-left .img-icon {
+    float: right;
+} 
+
+.svc-left .svc-tet p,
+.svc-left .svc-tet h1 {
+    text-align: left;
+
+}
+
+.svc-left .svc-tet{
+    margin-right: 47px;
+}
+
+.svc-left .svc-tet h1 {
+    text-align: right;
+}
+
+.img-icon, .svc-tet {
+    float: left;
+}
+.svc-tet{
+    margin-left: 47px;
+}
+
+.svc-tet p,
+.svc-tet h {
+    text-align: left;
+
+}
+
+.img-icon {
+    margin: 0% 2%;
+    padding-bottom: 72px;
+}
+
+ 
+
+
+
+/*RESOURCE PART*/
+
+.experience{
+    background-image: url("../images/background1.jpg");
+    padding: 100px;
+    margin-top: 50px;
+    background-size: cover;
+}
+
+.experience h1{
+    font-size: 42px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 86px;
+}
+
+.exp1{
+    width: 100%;
+    float: left;
+    padding: 12px 25px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 56px;
+
+}
+
+.content h3{
+    font-size: 25x;
+    color: white;
+    padding-bottom: 134px;
+    
+
+}
+.trans-img{
+    width: 33.33%;
+    float: left;
+
+}
+.trans-img1{
+    width: 33.33%;
+    float: left;
+    
+}
+
+.blur-icon{
+    text-align: center;
+}
+
+
+/*RECENT BLOG PART*/
+
+.content1{
+    text-align: center;
+}
+
+.blog{
+    text-align: center;
+    width: 100%;
+    background-color: #f8f9fb;
+}
+
+.content1 h1{
+
+    padding-top: 74px;
+    padding-bottom: 28px;
+    font-size: 36px;
+}
+
+.content1 p{
+    padding-bottom: 48px;
+    font-size: 16px;
+    color: #b59877;
+    font-style: italic;
+
+}
+
+.blog-img{
+    width: 33%; 
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 105px;
+
+ } 
+
+    .blog1-content{
+        width: 27%;
+        margin-left: 6.4%;
+        padding: 10% 0 50% 0;
+        height: 100%;
+        float: left;
+        background-color: #ebe2d9;
+        color: #b69874;
+
+    }
+
+    .blog1-content h2{
+        font-size: 18px;
+    }
+    .blog1-content h1{
+        font-size: 48px;
+     }
+
+    
+    .blog2-content{
+        float: left;
+        width: 60%;
+        text-align: left;
+        padding-left: 20px;
+        background-color: #ffffff;
+        padding-bottom: 135px;
+        
+    }
+    .blog2-content h3{
+        padding-top: 50px;
+
+    }
+    .blog2-content p{
+        color: #989898;
+    }
+
+
+.row {
+    width: 100%;
+}
+
+.blog-img .row {
+    margin-top: -4px;
+}
+
+/*FOOTER SECTION*/
+
+.footer{
+    background-color: #282828;
+    color: white;
+    text-align: center;
+
+}
+
+.footer1 h1 {
+
+    
+    
+    padding-top: 96px;
+    padding-bottom: 57px;
+}
+.Email-btn{
+    width: 438px;
+    height: 66px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 25px;
+    padding-right: 241px;
+    
+    border: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+    
+
+
+.footer1 pre{
+    padding-top: 48px;
+    padding-bottom: 152px;
+    font-family: Verdana;
+}
+
+
+
+.sub-btn{
+    width: 136px;
+    height: 66px;
+    border: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #b59877;
+    color: white;
+    font-size: 14px;
+}
